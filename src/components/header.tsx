@@ -16,7 +16,7 @@ export function Header() {
             <Home className="h-4 w-4" />
             Inicio
           </NavLink>{' '}
-          <NavLink to={'/orders'}>
+          <NavLink to={'/listing'}>
             <FileText className="h-4 w-4" />
             Listagem
           </NavLink>

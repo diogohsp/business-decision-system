@@ -6,7 +6,6 @@ import { ThemeProvider } from "./components/theme/theme-provider";
 
 function App() {
   return (
-    <>
     <ThemeProvider storageKey="business-decision-theme" defaultTheme="dark">
       <HelmetProvider>
         <Helmet titleTemplate="%s | decisionSystem" />
@@ -14,7 +13,6 @@ function App() {
         <Toaster richColors />
       </HelmetProvider>
     </ThemeProvider>
-    </>
   );
 }
 

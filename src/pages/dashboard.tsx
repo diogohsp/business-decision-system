@@ -8,10 +8,13 @@ export function Dashboard() {
   return (
     <>
       <Helmet title="Dashboard" />
-      <div className="bg-white">
+      <div >
         <Flex className="justify-center items-start">
           <Listagem />
-          <img src={imgEngineers} className="w-[650px]" alt="aa" />
+          <div className="text-center gap-4">
+            <img src={imgEngineers} className="w-[950px]" alt="ilustração de um homem e uma mulher engenheiros trabalhando" />
+            <p className="text-3xl font-bold">Seu melhor gerenciador de decisões</p>
+          </div>
         </Flex>
       </div>
     </>

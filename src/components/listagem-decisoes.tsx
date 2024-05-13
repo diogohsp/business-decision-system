@@ -62,7 +62,9 @@ export function Listagem() {
 
   return (
     <>
-      <Container className="flex justify-center pt-16">
+      <Container className="flex flex-col justify-center pt-16 gap-3">
+        
+      <h5 className="font-bold text-2xl">Selecione sua decisão</h5>
         <Select
           id="listagem"
           onChange={handleSelectChange}
@@ -86,7 +88,6 @@ export function Listagem() {
 
         <Flex>
           <Flex className="flex-col">
-            <h5>Titulo</h5>
             {decisaoSelecionada && (
               <>
                 <p>Titulo: {decisaoSelecionada.titulo}</p>
