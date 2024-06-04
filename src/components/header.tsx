@@ -22,7 +22,7 @@ export function Header() {
           </NavLink>
           <NavLink to={"/check"}>
             <FileText className="h-4 w-4" />
-            Checar Nova Decisão
+            Checar Novas Decisões
           </NavLink>
         </nav>
         <div className="ml-auto flex items-center gap-2">

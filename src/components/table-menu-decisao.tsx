@@ -38,19 +38,19 @@ export function TabelaListaSelecionada({ decisaoSelecionada }: TabelaProps) {
           {decisaoSelecionada && (
             <TableRow key={decisaoSelecionada.titulo}>
               <TableCell className="font-medium">
-                {decisaoSelecionada.titulo}
+                {decisaoSelecionada.titulo || "Não informado"}
               </TableCell>
               <TableCell className="text-center">
-                {decisaoSelecionada.classificacao1}
+                {decisaoSelecionada.classificacao1 || "Não informado"}
               </TableCell>
               <TableCell className="text-center">
-                {decisaoSelecionada.classificacao2}
+                {decisaoSelecionada.classificacao2 || "Não informado"}
               </TableCell>
               <TableCell className="text-center">
-                {decisaoSelecionada.classificacao3}
+                {decisaoSelecionada.classificacao3 || "Não informado"}
               </TableCell>
               <TableCell className="text-center">
-                {decisaoSelecionada.cas}
+                {decisaoSelecionada.cas || "Não informado"}
               </TableCell>
             </TableRow>
           )}
