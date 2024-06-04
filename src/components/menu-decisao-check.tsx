@@ -5,7 +5,7 @@ import { TabelaListaSelecionada } from "./table-menu-decisao";
 import { Container } from "./Container";
 import api from "@/services/api";
 
-export function MenuDecisao() {
+export function MenuDecisaoCheck() {
   interface Decisao {
     titulo: string;
     classificacao1: string;
@@ -18,7 +18,7 @@ export function MenuDecisao() {
 
   useEffect(() => {
     api
-      .get("/decisoes")
+      .get("/decisoesCheck")
       .then((response) => setDecisoes(response.data))
       .catch((err) => {
         console.error("Ops! Ocorreu um erro: " + err);

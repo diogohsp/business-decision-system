@@ -19,7 +19,7 @@ export function BotaoMenu({ decisoes }: BotaoMenuProps) {
         <DropdownMenuTrigger asChild>
           <Button variant="outline">Open</Button>
         </DropdownMenuTrigger>
-        <DropdownMenuContent className="w-56">
+        <DropdownMenuContent className="w-[45rem]">
           <DropdownMenuLabel>Decisões</DropdownMenuLabel>
           <DropdownMenuSeparator />
           {decisoes.map((decisao, index) => (

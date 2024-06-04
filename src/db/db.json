@@ -1,0 +1,42 @@
+{
+  "decisoes": [
+    {
+      "titulo": "Melhor horario para o vestibular",
+      "classificacao1": "Programada",
+      "classificacao2": "Academica",
+      "classificacao3": "Tática",
+      "cas": "Cordenação Geral",
+      "id": "ee26"
+    },
+    {
+      "titulo": "Chamado de problemas",
+      "classificacao1": "Não Programada",
+      "classificacao2": "Administrativa",
+      "classificacao3": "Estratégica",
+      "cas": "Secretaria",
+      "id": "6023"
+    },
+    {
+      "titulo": "Sujestão de projeto",
+      "classificacao1": "Não Programada",
+      "classificacao2": "Administrativa",
+      "classificacao3": "Tática",
+      "cas": "Cordenação Geral",
+      "id": "f436"
+    },
+    {
+      "titulo": "Definição de roteiro de aula",
+      "classificacao1": "Programada",
+      "classificacao2": "Academica",
+      "classificacao3": "Operacional",
+      "cas": "Professor",
+      "id": "50e9"
+    }
+  ],
+  "decisoesCheck": [
+    {
+      "id": "589b",
+      "titulo": "teste"
+    }
+  ]
+}
